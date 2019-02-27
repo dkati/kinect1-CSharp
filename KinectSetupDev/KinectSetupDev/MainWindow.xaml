@@ -6,10 +6,14 @@
         xmlns:local="clr-namespace:KinectSetupDev"
         xmlns:WpfViewers="clr-namespace:Microsoft.Samples.Kinect.WpfViewers;assembly=Microsoft.Samples.Kinect.WpfViewers" x:Name="Window" x:Class="KinectSetupDev.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="780" Width="1024" Loaded="Window_Loaded_1" Closing="Window_Closing_1">
-    <Grid Margin="0,0,-68,-56">
-        <WpfViewers:KinectSensorChooser x:Name="KinectSensorChooser1" HorizontalAlignment="Left" Height="61" Margin="711,10,0,0" VerticalAlignment="Top" Width="300"/>
-        <Image x:Name="image1" HorizontalAlignment="Left" Height="599" Margin="52,112,0,0" VerticalAlignment="Top" Width="903"/>
+        Title="MainWindow" Height="780" WindowState="Maximized" Width="1024" Loaded="Window_Loaded_1" Closing="Window_Closing_1">
+    
+    <Canvas Name="MainCanvas" >
+        <WpfViewers:KinectSensorChooser Canvas.Left="250" Canvas.Top="380" Name="kinectSensorChooser1" Width="328" />
+        <WpfViewers:KinectColorViewer  Kinect="{Binding ElementName=kinectSensorChooser1, Path=Kinect}" x:Name="kinectColorViewer1" Canvas.Left="0" Canvas.Top="0" Width="640" Height="480"/>
 
-    </Grid>
+        <Ellipse Canvas.Left="0" Canvas.Top="0" Height="50" Name="leftEllipse"  Width="50" Fill="#FF4D298D" Opacity="1" Stroke="White" />
+        <Ellipse Canvas.Left="100" Canvas.Top="0" Fill="#FF2CACE3" Height="50" Name="rightEllipse" Width="50" Opacity="1" Stroke="White" />
+        <Image Canvas.Left="66" Canvas.Top="90" Height="87" Name="headImage" Stretch="Fill" Width="84" Source="c4f-color.png" />
+    </Canvas>
 </Window>
