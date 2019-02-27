@@ -36,3 +36,22 @@ C:\Users\admin\Desktop\KinectforWindowsSDKV1\2.Setting Up Dev Environment\Settin
 C:\Users\admin\Desktop\KinectforWindowsSDKV1\2.Setting Up Dev Environment\SettingUpDevEnvironment\SettingUpDevEnvironment\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
 C:\Users\admin\Desktop\KinectforWindowsSDKV1\2.Setting Up Dev Environment\SettingUpDevEnvironment\SettingUpDevEnvironment\bin\Debug\Microsoft.Kinect.xml
 C:\Users\admin\Desktop\KinectforWindowsSDKV1\2.Setting Up Dev Environment\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\SettingUpDevEnvironment.csproj.CopyComplete
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\bin\Debug\SettingUpDevEnvironment.exe
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\bin\Debug\SettingUpDevEnvironment.pdb
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\bin\Debug\Microsoft.Kinect.dll
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\bin\Debug\Microsoft.Kinect.xml
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\SettingUpDevEnvironment.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\MainWindow.baml
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\MainWindow.g.cs
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\App.g.cs
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\SettingUpDevEnvironment_MarkupCompile.cache
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\SettingUpDevEnvironment.g.resources
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\SettingUpDevEnvironment.Properties.Resources.resources
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\SettingUpDevEnvironment.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\SettingUpDevEnvironment.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\SettingUpDevEnvironment.csproj.CopyComplete
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\SettingUpDevEnvironment.exe
+C:\Users\admin\Desktop\github\kinect1-CSharp\refs\SettingUpDevEnvironment\SettingUpDevEnvironment\obj\x86\Debug\SettingUpDevEnvironment.pdb
