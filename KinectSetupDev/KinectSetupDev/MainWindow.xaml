@@ -7,5 +7,9 @@
         xmlns:WpfViewers="clr-namespace:Microsoft.Samples.Kinect.WpfViewers;assembly=Microsoft.Samples.Kinect.WpfViewers" x:Class="KinectSetupDev.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="1004.375">
-    <WpfViewers:KinectSensorChooser x:Name="KinectSensorChooser1" HorizontalAlignment="Left" Height="153" Margin="629,255,0,0" VerticalAlignment="Top" Width="300"/>
+    <Grid>
+        <WpfViewers:KinectSensorChooser x:Name="KinectSensorChooser1" HorizontalAlignment="Left" Height="153" Margin="629,255,0,0" VerticalAlignment="Top" Width="300"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="219" Margin="52,112,0,0" VerticalAlignment="Top" Width="409"/>
+
+    </Grid>
 </Window>
