@@ -4,12 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KinectSetupDev"
-        xmlns:WpfViewers="clr-namespace:Microsoft.Samples.Kinect.WpfViewers;assembly=Microsoft.Samples.Kinect.WpfViewers" x:Class="KinectSetupDev.MainWindow"
+        xmlns:WpfViewers="clr-namespace:Microsoft.Samples.Kinect.WpfViewers;assembly=Microsoft.Samples.Kinect.WpfViewers" x:Name="Window" x:Class="KinectSetupDev.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="1004.375">
-    <Grid>
-        <WpfViewers:KinectSensorChooser x:Name="KinectSensorChooser1" HorizontalAlignment="Left" Height="153" Margin="629,255,0,0" VerticalAlignment="Top" Width="300"/>
-        <Image x:Name="image1" HorizontalAlignment="Left" Height="219" Margin="52,112,0,0" VerticalAlignment="Top" Width="409"/>
+        Title="MainWindow" Height="780" Width="1024" Loaded="Window_Loaded_1" Closing="Window_Closing_1">
+    <Grid Margin="0,0,-68,-56">
+        <WpfViewers:KinectSensorChooser x:Name="KinectSensorChooser1" HorizontalAlignment="Left" Height="61" Margin="711,10,0,0" VerticalAlignment="Top" Width="300"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="599" Margin="52,112,0,0" VerticalAlignment="Top" Width="903"/>
 
     </Grid>
 </Window>
