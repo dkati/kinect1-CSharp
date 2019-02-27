@@ -106,21 +106,42 @@ namespace KinectSetupDev
             void newSensor_AllFramesReady(object sender, AllFramesReadyEventArgs e)
             {
 
-                using (DepthImageFrame depthFrame = e.OpenDepthImageFrame())
+            //depth
+            /*
+            using (DepthImageFrame depthFrame = e.OpenDepthImageFrame())
+            {
+                if (depthFrame == null)
                 {
-                    if (depthFrame == null)
-                    {
-                        return;
-                    }
-                    byte[] pixels = GenerateColoredBytes(depthFrame);
-
-
-                    int stride = depthFrame.Width * 4;
-                    image1.Source =
-                        BitmapSource.Create(depthFrame.Width, depthFrame.Height,
-                        96, 96, PixelFormats.Bgr32, null, pixels, stride);
+                    return;
                 }
+                byte[] pixels = GenerateColoredBytes(depthFrame);
+
+
+                int stride = depthFrame.Width * 4;
+                image1.Source =
+                    BitmapSource.Create(depthFrame.Width, depthFrame.Height,
+                    96, 96, PixelFormats.Bgr32, null, pixels, stride);
             }
+            */
+
+            //color
+            using (ColorImageFrame depthFrame = e.OpenColorImageFrame())
+            {
+                if (depthFrame == null)
+                {
+                    return;
+                }
+                byte[] pixels = new byte[depthFrame.PixelDataLength];
+                depthFrame.CopyPixelDataTo(pixels);
+
+                int stride = depthFrame.Width * 4;
+                image1.Source =
+                    BitmapSource.Create(depthFrame.Width, depthFrame.Height,
+                    96, 96, PixelFormats.Bgr32, null, pixels, stride);
+            }
+
+        }
+        /*
             private byte[] GenerateColoredBytes(DepthImageFrame depthFrame)
             {
                 short[] rawDepthData = new short[depthFrame.PixelDataLength];
@@ -182,6 +203,7 @@ namespace KinectSetupDev
                 }
                 return pixels;
             }
+            */
 
             public static byte CalculateIntensityFromDepth(int distance)
             {
@@ -189,11 +211,7 @@ namespace KinectSetupDev
                 return (byte)(255 - (255 * Math.Max(distance - MinDepthDistance, 0)
                     / (MaxDepthDistanceOffset)));
             }
-
-
-
-
-
+        
             private void Window_Loaded_1(object sender, RoutedEventArgs e)
             {
                 //SetupKinectManually();
