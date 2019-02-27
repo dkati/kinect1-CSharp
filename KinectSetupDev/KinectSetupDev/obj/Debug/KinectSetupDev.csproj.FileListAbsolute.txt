@@ -38,3 +38,4 @@ C:\Users\admin\Desktop\github\kinect1-CSharp\KinectSetupDev\KinectSetupDev\obj\D
 C:\Users\admin\Desktop\github\kinect1-CSharp\KinectSetupDev\KinectSetupDev\obj\Debug\KinectSetupDev.csproj.CopyComplete
 C:\Users\admin\Desktop\github\kinect1-CSharp\KinectSetupDev\KinectSetupDev\obj\Debug\KinectSetupDev.exe
 C:\Users\admin\Desktop\github\kinect1-CSharp\KinectSetupDev\KinectSetupDev\obj\Debug\KinectSetupDev.pdb
+C:\Users\admin\Desktop\github\kinect1-CSharp\KinectSetupDev\KinectSetupDev\obj\Debug\KinectSetupDev.csprojAssemblyReference.cache

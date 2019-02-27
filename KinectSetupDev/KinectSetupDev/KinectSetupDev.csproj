@@ -43,9 +43,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\refs\Microsoft.Kinect.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Samples.Kinect.WpfViewers">
-      <HintPath>..\..\refs\Microsoft.Samples.Kinect.WpfViewers.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -104,6 +101,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\refs\KinectWpfViewers\Microsoft.Samples.Kinect.WpfViewers.csproj">
+      <Project>{4de23893-27e7-423f-9bb6-ba21dac2c45e}</Project>
+      <Name>Microsoft.Samples.Kinect.WpfViewers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
